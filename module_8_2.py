@@ -1,6 +1,3 @@
-from statistics import mean
-incorrect_data = 0
-result = 0
 def personal_sum(numbers):
     incorrect_data = 0
     result = 0
