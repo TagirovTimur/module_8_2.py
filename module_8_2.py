@@ -4,15 +4,12 @@ result = 0
 def personal_sum(numbers):
     incorrect_data = 0
     result = 0
- #   t = 0
     for i in numbers:
         try:
             result +=i
         except TypeError:
             incorrect_data +=1
             print(f'Некорректный тип данных для подсчёта суммы: {i}')
-  #      finally:
- #           t +=1
     print(f'кол-во некорректных данных: {incorrect_data}')
     return (result, incorrect_data)
 
